@@ -1,0 +1,13 @@
+site_name: Cancer prediction shenanigans
+site_url: https://github.com/hpsbastos/cancer-prediction-hp-shenanigans
+repo_url: https://github.com/hpsbastos/cancer-prediction-hp-shenanigans
+nav:
+  - Home: index.md.md
+  - cancer-prediction:
+    - cancer_model: cancer_prediction/cancer_model.md
+    - streamlit_app: cancer_prediction/streamlit_app.md
+theme: readthedocs
+plugins:
+  - mkdocstrings
+watch:
+ - .

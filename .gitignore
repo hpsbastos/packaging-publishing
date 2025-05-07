@@ -1,3 +1,5 @@
 .venv
+.env
 venv/
 *.lock
+.mypy_cache
