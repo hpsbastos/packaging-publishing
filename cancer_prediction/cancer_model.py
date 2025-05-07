@@ -1,3 +1,4 @@
+import pickle
 import warnings
 
 import numpy as np
@@ -10,7 +11,7 @@ from sklearn.preprocessing import StandardScaler
 
 warnings.filterwarnings("ignore")
 
- import pickle
+# import pickle
 
 
 class CancerModel:

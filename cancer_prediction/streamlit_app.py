@@ -1,11 +1,13 @@
 import os
-#import pickle
 
-#import numpy as np
+# import numpy as np
 import pandas as pd
 import streamlit as st
 
 from cancer_prediction.cancer_model import CancerModel
+
+# import pickle
+
 
 st.set_page_config(page_title="Cancer Diagnosis Prediction", layout="wide")
 
